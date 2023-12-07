@@ -1,0 +1,20 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.comment__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment__content-username {
+  font-weight: bold;
+}
+
+.comment__like {
+  width: 20px;
+}

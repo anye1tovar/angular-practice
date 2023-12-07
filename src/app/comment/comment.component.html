@@ -1,0 +1,7 @@
+<div class="comment">
+    <div class="comment__content">
+        <span class="comment__content-username">{{name}}</span>
+        <span>{{body}}</span>
+    </div>
+    <img (click)="like()" class="comment__like" [src]="imgPath" alt="Like">
+</div>
